@@ -1,0 +1,231 @@
+#set($layout="/layout/index.vm")
+<body class="home">
+<div id="sitecontent" class="transform">
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!-- end 顶部-->
+
+    <div class="scrollPage">
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/wapsy-banner.png" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+            <ul class="function">
+                <li>
+                    <img src="/static/img/sy-yjfb.png" alt="">
+                    <p class="title">一键发布</p>
+                </li>
+                <li>
+                    <img src="/static/img/sy-yxfw.png" alt="">
+                    <p class="title">严选服务</p>
+                </li>
+                <li>
+                    <img src="/static/img/sy-qcsl.png" alt="">
+                    <p class="title">全城搜罗</p>
+                </li>
+                <li>
+                    <img src="/static/img/sy-jzpp.png" alt="">
+                    <p class="title">精准匹配</p>
+                </li>
+            </ul>
+            <!--核心优势-->
+            <div id="madvantage" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">热门服务</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="advantage-block">
+                        <ul>
+                            <li class="itemlist mauto wow fadeIn">
+                                <img src="/static/img/sy-tuina.png" width="120" height="115" />
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">找推拿按摩</p>
+##                                        <p class="description">邀请好友使用一起拿返利，赚钱可以很轻松。</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemlist mauto wow fadeIn">
+                                <img src="/static/img/sy-jiazheng.png" width="120" height="115" />
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">找家政保洁</p>
+##                                        <p class="description">多，快，好，省生活可以如此简单。</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemlist mauto wow fadeIn">
+                                <img src="/static/img/sy-baomu.png" width="120" height="115" />
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">找保姆管家</p>
+##                                        <p class="description">邀请好友使用一起拿返利，赚钱可以很轻松。</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemlist mauto wow fadeIn">
+                                <img src="/static/img/sy-huazhuang.png" width="120" height="115" />
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">找美甲化妆</p>
+##                                        <p class="description">以严谨的态度为您甄选全城优质服务。</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end 核心优势-->
+
+            <!--APP展示-->
+            <div id="mAPPshow" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">APP展示</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="APPshow-block fadeIn">
+                            <img src="/static/img/phone.png"  />
+                    #*<ul>
+                        <li class="itemlist mauto wow fadeIn"><img src="/static/newImage/applist2.png" width="240" height="440" /></li>
+                        <li class="itemlist mauto wow fadeIn"><img src="/static/newImage/applist3.png" width="240" height="440" /></li>
+                        </ul>*#
+                    </div>
+                </div>
+            </div>
+            <!--end APP展示-->
+
+            <!--服务范围-->
+            #*<div id="mservice" class="module mslider">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">我们提供以下服务</p>
+                        <!--<p class="subtitle">—— SERVICE ——</p>-->
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="slider_wrapper">
+                        <ul class="slider">
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/newImage/service1.png" width="160" height="60" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">找按摩</p><p class="description">按摩</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/newImage/service2.png" width="160" height="60" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">找保洁</p><p class="description">保洁</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/newImage/service3.png" width="160" height="60" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">找保姆</p><p class="description">保姆</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/newImage/service4.png" width="160" height="60" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">找化妆师</p><p class="description">化妆师</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/newImage/service5.png" width="160" height="60" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">找一切服务</p><p class="description">一切服务</p></a>
+                                </div></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more">MORE</a>
+                    <div style="height:0">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>*#
+            <!--end 服务范围-->
+
+            <!--关于我们-->
+            #*<div id="mpage" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">关于我们</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <p class="description mauto w90">公司重点打造的蜜蜂帮帮，是基于互联网思维，以用户服务需求为导向，精准连接人与服务的C2S（Customer To Service）全新服务平台。公司创始团队具有超过10年的移动互联网项目的运营经验，具有深厚的技术能力，在大数据和精准适配技术领域具有丰富的经验。公司现已获得多个顶级投资机构的投资，并和国内各个领域的数千家上门服务商家已建立了紧密合作关系。</p>
+                </div>
+                <a href="about.htm" class="more">MORE</a>
+                <!--<div class="fimg wow fadeIn">
+                 <a href="\"><img src="" /></a>
+                </div> -->
+            </div>*#
+            <!--end 关于我们-->
+
+
+            <!--战略合作商-->
+            <div id="mcompanyBusiness" class="module mcompany">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">战略合作</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                </div>
+                <div class="wrapper w90 mauto">
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_1_2.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_1_4.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_1_7.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_1_5.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_2.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/link_1_3.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div><div class="wrapper-list fl">
+                    <div class="text-center">
+                        <a href="javascript:void(0)">
+                            <img src="/static/newImage/link_1_8.png" alt="" width="267" height="110" />
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--end 战略合作商-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+</body>

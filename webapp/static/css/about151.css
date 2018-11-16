@@ -1,0 +1,60 @@
+#mintroduce{border: none !important;}
+.about-block p.title{color:#FFA700;font-size: 1.4rem;
+    line-height: 2rem;}
+.about-block p.description{font-size: 1.4rem;color: #999;text-indent: 2em;
+    line-height: 2rem;}
+.about-block img{float:none;max-width:100%;height:auto;display:block;margin:0 auto}
+#culture .w90{
+  overflow: hidden;
+}
+#culture img{
+    float: left;
+    width: 45%;
+
+}
+#culture .main{
+    float: left;
+    margin-left: 7%;
+    width: 47%;
+    color: #999;
+    font-size: 1.4rem;
+}
+#culture .main li{
+    margin: 0 auto 10px;
+}
+#culture .main .title{
+    font-size: 1.4rem;
+    color: #FFA700;
+    margin-bottom: 5px;
+}
+#mnotion .main{
+    font-size: 1.4rem;
+    color: #999;
+    margin-left: 5px;
+}
+#mnotion .main li{
+    overflow: hidden;
+    margin: 8px 0;
+}
+/*#mnotion .main li:before{
+    content: '•';
+}*/
+
+#mnotion .main span{
+    float: left;
+    /*display: inline-block;*/
+    height: 2rem;
+    width: 1rem;
+
+}
+#mnotion .main p{
+    float: left;
+    display: inline-block;
+    line-height: 2rem;
+    width: 90%;
+}
+/*
+#mnotion .main p:before{
+    content: '•';
+
+}*/

@@ -1,0 +1,202 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/about151.css" rel="stylesheet"/>
+<!--end Page CSS-->
+<body class="about">
+<div id="sitecontent" class="transform">
+
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--end 顶部-->
+
+    <div>
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/wapgy-banner.png" class="imgcw"/>
+                <div class="clear"></div>
+            </div>
+
+            <!--公司简介-->
+            <div id="mintroduce" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">公司简介</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="about-block w90 mauto">
+                        <img src="/static/newImage/company_bg1.jpg">
+                        <br/>
+                        <p class="title">蜜蜂帮帮是一家基于互联网思维，以用户服务需求为导向，智能连接人与服务的新型服务平台</p>
+                        <p><br/></p>
+                        <p class="description">
+                            蜜蜂帮帮，隶属杭州蜂享科技有限公司，成立于2017年4月27日。蜜蜂帮帮是一家基于互联网思维，以用户服务需求为导向，智能连接人与服务的新型服务平台。
+                            打破传统服务行业运营模式，整合线上线下服务供需关系，旨在帮助拥护解决严选服务问题。
+                        </p>
+                        <p class="description">
+                            公司核心团队来自于阿里巴巴、清华大学、58同城、浙大等，源于对用户体验及服务行业的深刻理解。在互联网+服务背景下，致力于服务行业的革新，为用户提供更好的生活服务。
+                            针对传统服务存在的五大痛点：留客难，拓客难，营销渠道窄，资金链短缺，货源信息不对称等问题提出一站式解决方案。
+                            截止2017年12月，蜜蜂帮帮已覆盖20余省，发展区县逾700个，线下布局已覆盖全国。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--end 公司简介-->
+
+            <div id="culture" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">企业文化</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class=" w90 mauto">
+                        <img src="/static/img/gy-qywh.png">
+                        <ul class="main">
+                            <li>
+                                <p class="title">价值观</p>
+                                <p>务实&nbsp;&nbsp;创新&nbsp;&nbsp;利他</p>
+                            </li>
+                            <li>
+                                <p class="title">口号</p>
+                                <p>你身边的严选服务</p>
+                            </li>
+                            <li>
+                                <p class="title">愿景</p>
+                                <p>成为全球三大服务科技公司</p>
+                            </li>
+                            <li>
+                                <p class="title">使命</p>
+                                <p>科技让服务更智慧</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--平台简介-->
+        #*<div id="mdevelopment" class="module">
+            <div class="content">
+                <div class="header">
+                    <p class="title">平台简介</p>
+                    <span class="borderOrange"></span>
+                </div>
+                <div class="about-block w90 mauto">
+                    <img src="/static/newImage/company_bg2.jpg">
+                    <br />
+                    <p class="title">中国领先的服务产业生态圈共创平台。服务业的“滴滴打车”，国内独创服务产业商业模式，简化连接人与服务间的商业流程，是搭建消费者，服务商更直接、更简单的商业共享平台。</p>
+                    <p><br /></p>
+                    <p class="description">打破传统互联网服务商业闭环，深耕服务行业，整合线上线下服务供需关系，旨在帮你解决身边的严选服务，通过TA，消费者可以随时随地获取生活所需定制服务，无论你有服务需求，还是你有一技之长，这里将为你打造无缝对接的服务生态圈，总之，它将改变人们获取服务的方式与服务业态，开启互联网+时代的新大门，连接万亿服务市场，为你严选身边的优质服务，人人分享、人人创业。</p>
+                </div>
+            </div>
+        </div>*#
+            <!--end 平台简介-->
+
+            <!--企业理念-->
+            <div id="mnotion" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">发展历程</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="about-block w90 mauto">
+                        <img src="/static/newImage/company_bg3.jpg">
+                        <ul class="main">
+                            <li>
+                                <span>•</span>
+                                <p>2018年7月，蜜蜂帮帮首场海外发布会在泰国曼谷举行</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年6月，蜜蜂帮帮获得“年度中国生活服务最具创新力品牌”奖;CEO陈龙先生，获得了“年度中国生活服务产业领军人物”奖。</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年6月，蜜蜂帮帮项目登陆美国纳斯达克大屏展播</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年6月，蜜蜂帮帮APP2.3版本发布</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年6月，蜜蜂帮帮成功入选中国优选品牌</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，蜜蜂帮帮商学院正式成立并成功举办第一届运营中心赋能会</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，蜜蜂帮帮项目荣获 “2018年度中国影响力最具价值品牌奖”</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，CEO陈龙荣获“2018中国品牌影响力互联网（行业）十大新锐人物”荣誉称号</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，蜜蜂帮帮CEO陈龙登上北京中关村创业者大屏</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，蜜蜂帮帮APP2.2版本发布</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年5月，蜜蜂帮帮参加2050云栖大会</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年4月，蜜蜂帮帮APP2.1版本发布</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2018年4月，蜜蜂帮接受浙江卫视专访</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年12月，蜜蜂帮帮APP1.5版本发布</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年12月，蜜蜂帮帮接受东方卫视专访</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年12月，蜜蜂帮帮参加世界互联网大会</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年8月，百城运营计划正式启动</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年8月，蜜蜂帮帮APP产品发布1.0版本正式上线</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年7月合伙人超百位</p>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <p>2017年3月项目启动</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end 企业理念-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+
+</body>

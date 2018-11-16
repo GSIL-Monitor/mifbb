@@ -1,0 +1,59 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/join.css" rel="stylesheet" />
+<!--end Page CSS-->
+<body class="join">
+<div id="sitecontent" class="transform">
+
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--顶部-->
+
+    <div>
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/joinus.jpg" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+
+            <!--加入我们-->
+            <div id="mjoin" class="module">
+                <div class="join-container container">
+                    <div class="row">
+                        <div class="join-block span6">
+                            <form action="" method="post">
+                                <p class="title">欢迎所有创业者加入蜜蜂帮帮</p>
+                                <label for="firstname">姓名</label>
+                                <input type="text" class="username" id="username" name="username" placeholder="请输入您的姓名">
+                                <label for="lastname">联系电话</label>
+                                <input type="text" class="telephonenumber" id="telephone" name="telephone" placeholder="请输入您的手机号码">
+                                <label for="username">意向区域</label>
+                                <input type="text" class="area" id="area" name="area" placeholder="请输入您希望合作的区/县名称，如西湖区">
+                                <a href="javascript:void(0)" id="submit-btn" class="cooperateBut cooperateBut1">加入我们</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--end 加入我们-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+        <!--提交-->
+        #parse("include/submit.vm")
+        <!--提交-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+
+
+</body>

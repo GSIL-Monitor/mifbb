@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="effect">
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+
+    <!--Common CSS-->
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/icon.png" />
+    <link type="text/css" href="/static/css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/lib/bxslider.min.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/lib/animate.min.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/style151.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/index151.css" rel="stylesheet" />
+    <!--end Common CSS-->
+
+
+    <title>蜜蜂帮帮官网</title>
+</head>
+    $screen_content
+<!--Common JS-->
+<script type="text/javascript">var YYConfig={};</script>
+<script type="text/javascript" src="/static/js/lib/zepto.min.js"></script>
+<script type="text/javascript" src="/static/js/lib/zepto.bxslider.min.js"></script>
+<script type="text/javascript" src="/static/js/lib/wow.min.js"></script>
+<script type="text/javascript" src="/static/js/lib/masonry_4.min.js"></script>
+<script type="text/javascript" src="/static/js/lib/goTop.js"></script>
+<script type="text/javascript" src="/static/js/lib/newSkip.js"></script>
+<script type="text/javascript" src="/static/js/lib/org.min.js" data-main="IndexMain"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+
+
+<!--end Common JS-->
+</html>

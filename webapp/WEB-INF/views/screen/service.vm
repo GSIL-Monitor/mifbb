@@ -1,0 +1,203 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/service151.css" rel="stylesheet" />
+<!--end Page CSS-->
+<body class="service">
+<div id="sitecontent" class="transform">
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--end 顶部-->
+
+    <div style="overflow: hidden">
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/wapfwsrz-banner.png" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+
+            <!--火爆招商-->
+            <div id="mbusiness" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">入驻流程</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="business-block">
+                        <ul>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/fusrz-xz.png"  />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">1.下载</p></a>
+                                </div></li>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/fusrz-xinxi.png" />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">2.填写信息</p></a>
+                                </div></li>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/fwsrz-shenhe.png"  />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">3.提交审核</p></a>
+                                </div></li>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/fwsrz-fabu.png" />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">4.发布技能</p></a>
+                                </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end 火爆招商-->
+
+            <!--技能-->
+            #*<div id="mskill" class="module mslider">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">上百种技能任你发</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="slider_wrapper">
+                        <ul class="slider">
+                            <li class="itemlist wow fadeIn">
+                                <a href="javascript:void(0)">
+                                    <img src="/static/newImage/index_banner_03_02.jpg" width="220" height="80" />
+                                </a>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">我提供维修服务</p>
+                                        <p class="description">冰箱、空调、洗衣机、热水器、微波炉</p>
+                                    </a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)">
+                                <img src="/static/newImage/index_banner_03_01.jpg" width="220" height="80" />
+                            </a>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">我提供美容服务</p>
+                                        <p class="description">祛斑、去痘、美白、拉皮、祛皱、整容</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="itemlist wow fadeIn">
+                                <a href="javascript:void(0)">
+                                    <img src="/static/newImage/index_banner_03_03.jpg" width="220" height="80" />
+                                </a>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <p class="title">我提供家政服务</p>
+                                        <p class="description">保洁、钟点工、育婴师、保姆、月嫂</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="more">MORE</a>
+                    <div style="height:0">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>*#
+            <!--end 技能-->
+
+            <div id="advantage" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">平台优势</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="step-block w90 mauto">
+                        <div class="content">
+                            <img src="/static/img/fwsrz-youshi.png" alt="">
+                            <div class="main">
+                                <p class="title">平台效益</p>
+                                <p>通过平台增加曝光</p>
+                                <p class="title">海量客流</p>
+                                <p>优质订单源源不断</p>
+                                <p class="title">高效经营</p>
+                                <p>上百种技能任你发</p>
+                                <p class="title">便捷服务</p>
+                                <p>7*24小时派单服务</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--订单-->
+            <div id="morder" class="module">
+                <ul class="content">
+                    <div class="header">
+                        <p class="title">入驻类型</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <ul class="order-block">
+                            <li class=" mauto wow fadeIn">
+                                <img src="/static/img/fwsrz-geren.png"  />
+                                <p class="description">个人</p>
+                            </li>
+                            <li class=" mauto wow fadeIn">
+                                <img src="/static/img/fwsrz-shangjia.png"  />
+                                <p class="description">商家</p>
+                            </li>
+                            <li class=" mauto wow fadeIn">
+                                <img src="/static/img/fwsrz-qiye.png"  />
+                                <p class="description">企业</p>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <!--end 订单-->
+
+            <!--成为商户-->
+            #*<div id="mstep" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">怎样成为商户</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="step-block w90 mauto">
+                        <div class="content">
+                            <ul class="stepli">
+                                <li class="steplist">
+                                    <img alt="" src="/static/newImage/step_1.png" width="78" height="78">
+                                    <p class="title">下载APP</p>
+                                    <p><br /></p>
+                                    <p class="description">下载商户版APP，申请成为服务商</p>
+                                </li>
+                                <li class="steplist">
+                                    <img alt="" src="/static/newImage/step_2.png" width="78" height="78">
+                                    <p class="title">提交申请</p>
+                                    <p><br /></p>
+                                    <p class="description">填写信息，上传资质，提交申请</p>
+                                </li>
+                                <li class="steplist">
+                                    <img alt="" src="/static/newImage/step_3.png" width="78" height="78">
+                                    <p class="title">资质审核</p>
+                                    <p><br /></p>
+                                    <p class="description">1个工作日内完成审核</p>
+                                </li>
+                                <li class="steplist">
+                                    <img alt="" src="/static/newImage/step_4.png" width="78" height="78">
+                                    <p class="title">上线营业</p>
+                                    <p><br /></p>
+                                    <p class="description">通过审核，发布服务，接受订单</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>*#
+            <!--end 成为商户-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end 左侧滑动菜单-->
+
+</body>
+

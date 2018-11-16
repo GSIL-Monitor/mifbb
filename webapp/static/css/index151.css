@@ -1,0 +1,87 @@
+#header { background: #fff; }
+#footer { background: #2C2F3A; }
+.bx-wrapper { background: transparent; }
+.scrollView { background-color: #f8f8f8; }
+.content .header p.subtitle { margin: 5px 20px; }
+.teamitem #mteam_img { width: 100px; overflow: hidden; height: 80px; max-height: 80px; }
+.teamitem .teaminfo .header {  padding-left: 120px; margin-top: -60px;margin-bottom: 30px; }
+.teamitem img { width: 100%; height: auto; border-radius: 0px; margin-bottom: 26px; }
+.teamitem .teaminfo { margin-left: 0px; }
+.teaminfo .header p.subtitle { margin: 5px 0px; }
+.teamitem a { height: auto; }
+.teamitem:nth-of-type(even) .teaminfo { margin-right: 0px; }
+.teamitem .teaminfo .description { margin-top: 20px; }
+.teamitem .teaminfo .description { height: auto; line-height: 22px; }
+#teampost .header p.subtitle { margin: 5px 0px; }
+/*首页案例文字*/
+
+.function{
+    width: 100%;
+    overflow: hidden;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.function li{
+    width: 15%;
+    float: left;
+    margin: 0 5%;
+}
+.function li img{
+    display: inline-block;
+    width: 100%;
+    margin: 15% 0;
+}
+.function .title{
+    color: black;
+}
+
+.projectitem .project_info p.title { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 16px 10px 2px; margin-top: 16px; color: #535353; font-size: 14px; text-align: left; }
+.projectitem .project_info p.subtitle { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0px 10px; color: #9B9B9B; font-size: 12px; margin-bottom: 10px; text-align: left; }
+#projectlist .projectitem .project_info div { position: absolute; width: 100%; bottom: -60px; }
+#projectlist .projectitem { margin-bottom: 70px; }
+/*首页案例文字结束*/
+#indexPage .module{border-top: 1px solid #e7e7e7; /*width: 100%*/}
+#indexPage #mpage {border-top: 1px solid #e7e7e7; }
+#indexPage #mcontact .header p.title { color: #444; }
+#indexPage #mcontact .header p.subtitle { color: #c1c1c1; }
+#contactinfo h3 { color: #444; }
+#indexPage #mcontact { background-color: #fff; }
+#contactinfo p.ellipsis a { color: #676767; }
+#contactinfo div a { color: #A0A0A0; background: #FFFFFF; border: #f0f0f0 1px solid; }
+#footer { background: #FFF; border: #f0f0f0 1px solid;margin-top: 20px; }
+#indexPage a.more { /*color: transparent; background: url(http://resources.jsmo.xin/templates/upload/110/icon/jiantoum.png)no-repeat scroll 26px -96px;*/ background-size: 200%; width: 60%; /*height: 30px; transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;*/ border-radius: 0px; }
+#indexPage a.more:hover { border-color: #b6b6b6; }
+#projectmore { background: transparent; border: 1px solid #dfdfdf; font-family: "HELVETICANEUELTPRO-THEX"; color: #9f9f9f; display: block; font-size: 14px; height: 40px; line-height: 42px; text-indent: 0px; transition: all 0.3s ease-out 0s; width: 70%; margin: 20px auto 40px; }
+#projectmore:hover { color: #fff; background: #666; border: 1px solid #666; }
+#newslist .newstitem .md { color: #8a8a8a; font-size: 16px; line-height: 0px; height: 0; padding: 0 60px 0 0; }
+#newslist .newsinfo .year { color: #bdbdbd; font-size: 16px; line-height: 0; padding: 0 0 0 15px; }
+#newslist .newstitem .newsdate { margin-bottom: 15px; }
+#newslist .newstitem { padding-top: 40px; padding-bottom: 30px; height: auto; }
+.content .header p.subtitle { color: #B0B0B0; }
+#indexPage #mnews { border-top: 1px solid #e7e7e7; }
+#indexPage #mslider ul li p.title { margin-top: 84px; font-family: "HELVETICANEUELTPRO-THEX", "微软雅黑"; }
+#indexPage #mslider ul li p.subtitle { color: #8c8c8c; font-family: "HELVETICANEUELTPRO-THEX", "微软雅黑"; }
+#category .label { background: #353535; }
+.dropmenu ul li a.active { color: #4F4F4F; }
+.npagePage #teamlist #team_img{ width: 100px; overflow: hidden; height: 80px; max-height: 80px;}
+#leftcontrol ul li.active a span.circle{border-color: #fff;background-color: #fff;}
+
+/*#madvantage{border: none !important;}*/
+.advantage-block{margin: 15px auto 0;overflow: hidden; width: 89%;}
+.advantage-block .itemlist{margin: 1% 2.5% ;width:45%;float: left;}
+/*.advantage-block .itemlist{margin-top: 25px;}*/
+.mcompany .wrapper{position: relative;overflow: hidden;}
+.mcompany .wrapper-list{margin-bottom:10px;}
+@media screen and (max-width: 760px) {
+.mcompany .wrapper-list{width:24.666%;}
+}
+@media screen and (min-width: 760px) {
+.mcompany .wrapper-list{width:16.583333%;}
+}
+.mcompany .wrapper-list a{position: relative;display: inline-block;max-width: 100%;}
+.mcompany .wrapper-list img{vertical-align: middle;max-width: 100%;width: auto;height: auto;}
+#mservice .itemlist .description{display: none;}
+
+.home #indexPage #mservice .slider_wrapper, .home #indexPage .mslider .slider_wrapper{height: 100px;}
+.open #sitecontent{overflow: hidden;}

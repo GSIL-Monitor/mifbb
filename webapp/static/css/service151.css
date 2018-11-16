@@ -1,0 +1,65 @@
+#mbusiness{border: none !important;}
+#mbusiness .business-block p.description{height:70px;width:65%;margin:0 auto}
+#mstep .step-block p.description{/*height:60px;line-height: 1.6rem;*/}
+#mstep .step-block p.description{display: inline-block;margin-left: 15px;font-size: 1.3rem;width:-webkit-calc(100% - 95px); width: -moz-calc(100% - 95px);}
+#mstep .step-block p.title{color: #FFA700;padding-top: 10px;display: inline-block;margin-left: 15px;font-size: 1.4rem;}
+#mstep .content{margin: 0 auto;}
+#mstep .steplist{height: 90px;}
+@media screen and (max-width: 600px) {
+#mstep .content{width: 95%}
+}
+@media screen and (min-width: 600px) {
+#mstep .content{width: 75%}
+}
+#mbusiness .business-block{
+    overflow: hidden;
+    width: 87%;
+    margin: 0 auto;
+}
+#mbusiness .business-block .itemlist {
+    margin: 1% 2.5%;
+    width: 45%;
+    float: left;
+}
+#mbusiness .business-block .itemlist img{
+    width: 56%;
+}
+#advantage .content{
+    overflow: hidden;
+}
+#advantage .content .main{
+    float: left;
+    margin:12% 0 0 12% ;
+    font-size: 1.3rem;
+    color: #999;
+}
+#advantage .content .main .title{
+    margin: 10px 0 2px;
+    color: #FFA700;
+    font-size: 1.5rem;
+}
+#advantage .content .main p{
+    /*margin: 20px 0;*/
+}
+#advantage .content img{
+    float: left;
+    width: 48%;
+
+    margin-left: 10px;
+}
+#morder .order-block{
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+#morder .order-block li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: black;
+}
+#morder .order-block img{
+    float: none;
+    width: 70%;
+}

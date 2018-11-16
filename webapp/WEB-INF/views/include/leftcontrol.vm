@@ -1,0 +1,28 @@
+<div id="leftcontrol">
+    <ul id="nav">
+        <li>
+            <div id="closelc" class="fr btn hide">
+                <div class="lcbody">
+                    <div class="lcitem top">
+                        <div class="rect top"></div>
+                    </div>
+                    <div class="lcitem bottom">
+                        <div class="rect bottom"></div>
+                    </div>
+                </div>
+            </div></li>
+        <li class="navitem #if($!index) $!index #end"><a class="transform" href="/"><span class="circle transform"></span>首页</a></li>
+        <li class="navitem #if($!service) $!service #end"><a class="transform" href="/service.htm"><span class="circle transform"></span>全民服务商</a></li>
+        <li class="navitem #if($!company) $!company #end"><a class="transform" href="/company.htm"><span class="circle transform"></span>加盟合作</a></li>
+        <li class="navitem #if($!news) $!news #end"><a class="transform" href="/news.htm"><span class="circle transform"></span>新闻动态</a></li>
+        <li class="navitem #if($!about) $!about #end"><a href="/about.htm" class="transform"><span class="circle transform"></span>关于我们<!--span class="more"><span class="h"></span><span class="h v transform"></span>--></a>
+            <!--<ul class="subnav transform" data-height="150">
+             <li><a href=""><i class="fa fa-angle-right"></i>公司简介</a></li>
+             <li><a href=""><i class="fa fa-angle-right"></i>发展史</a></li>
+             <li><a href=""><i class="fa fa-angle-right"></i>企业理念</a></li>
+            </ul>-->
+        </li>
+        <li class="navitem #if($!contact) $!contact #end"><a class="transform" href="/contact.htm"><span class="circle transform"></span>联系我们</a></li>
+        <li class="navitem #if($!join) $!join #end"><a class="transform" href="/join.htm"><span class="circle transform"></span>加入我们</a></li>
+    </ul>
+</div>

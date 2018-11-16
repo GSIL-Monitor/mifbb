@@ -1,0 +1,61 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/contact.css" rel="stylesheet" />
+<!--end Page CSS-->
+<body class="contact">
+<div id="sitecontent" class="transform">
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--end 顶部-->
+
+    <div>
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/contractus.jpg" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+
+            <!--联系我们-->
+            <div id="mcontact" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">联系我们</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="contact-block w90 mauto">
+                        <div id="dituContent" style="width:100%;height:350px;margin: 0 auto;"></div>
+                        <div class="contact-content">
+                            <p class="title">您可以通过以下方式联系我们：</p>
+                            <p><br /></p>
+                            <p>合作热线：400-882-7702</p>
+                            <p><br /></p>
+                            <p>工作时间：工作日 9：00-18：00</p>
+                            <p><br /></p>
+                            <p>客服邮箱：service@mifbb.com</p>
+                            <p><br /></p>
+                            <p>公司地址：浙江省杭州市余杭区梦想小镇互联网村24栋2楼</p>
+                            <p><br /></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end 联系我们-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+
+</body>
+<!--Page JS-->
+<script type="text/javascript" src="https://api.map.baidu.com/api?key=&v=2.0&services=true"></script>
+<script type="text/javascript" src="/static/js/map.js"></script>
+<!--end Page JS-->

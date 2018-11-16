@@ -1,0 +1,12 @@
+#mjoin{border: none !important;}
+#mjoin .join-block .description{color: #FFA700;}
+#mshare .share-block img{
+    width: 23%;
+}
+#indexPage #mshare  {
+    border-top: none
+}
+/*
+#mmodel .bx-viewport img{
+    width: 8rem;
+}*/

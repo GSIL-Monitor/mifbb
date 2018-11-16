@@ -1,0 +1,317 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/company151.css" rel="stylesheet" />
+<!--end Page CSS-->
+<body class="company">
+<div id="sitecontent" class="transform">
+
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--end 顶部-->
+
+    <div>
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/waphhr-banner.png" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+
+            <!--加盟-->
+            #*<div id="mjoin" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">我要加盟</p>
+                        <!--<p class="subtitle">—— SERVICE ——</p>-->
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="join-block">
+                        <ul>
+                            <li class="itemlist mauto wow fadeIn">
+                                <div>
+                                    <p class="description">全国省市县火热招募中，站在互联网+的风口上，占领市场，共创双赢。您稍有犹豫，就有人抢占先机。</p>
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                    <img src="/static/newImage/map.png" width="260" height="160" />
+                                </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>*#
+            <!--end 加盟-->
+
+            <!--共享经济-->
+            <div id="mshare" class="module">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">共享经济</p>
+                        <!--<p class="subtitle">—— SERVICE ——</p>-->
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="share-block">
+                        <ul>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/hhr-gongx.png"  />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">共享</p><p class="description">共享智慧，时间，技能，经验</p></a>
+                                </div></li>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/hhr-hehuo.png"/>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">合伙</p><p class="description">合作代替雇佣，更有利于创业发展</p></a>
+                                </div></li>
+                            <li class="itemlist mauto wow fadeIn"><img src="/static/img/hhr-huli.png" />
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">互利</p><p class="description">消费返利，多方受益，共享源源不断收益</p></a>
+                                </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end 共享经济-->
+
+            <!--加盟模式-->
+            <div id="mmodel" class="module mslider">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">加盟模式</p>
+                        <!--<p class="subtitle">—— SERVICE ——</p>-->
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="slider_wrapper">
+                        <ul class="slider">
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/img/hhr-hhjy.png" width="80" height="80" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">合伙经营</p><p class="description">创立合伙人机制招募核心创业伙伴。</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/img/hhr-shouyi.png" width="80" height="80" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">共同收益</p><p class="description">与合伙人共享平台成果。</p></a>
+                                </div></li>
+                            <li class="itemlist wow fadeIn"><a href="javascript:void(0)"><img src="/static/img/hhr-fuchi.png" width="80" height="80" /></a>
+                                <div>
+                                    <a href="javascript:void(0)"><p class="title">全程扶持</p><p class="description">提供一站式全方位的成长帮扶政策。</p></a>
+                                </div></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more">MORE</a>
+                    <div style="height:0">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <!--end 加盟模式-->
+
+            <!--合作城市-->
+            #*<div id="mcompany" class="module mcompany hide">
+                <div class="content">
+                    <div class="header">
+                        <p class="title">合作城市</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                </div>
+                <div class="wrapper w90 mauto">
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city1.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city2.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city3.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city4.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city5.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city6.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city7.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city8.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city9.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city10.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city11.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city12.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city13.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city14.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city15.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city16.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city17.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city18.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city19.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city20.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city21.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city22.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city23.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city24.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city25.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city26.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wrapper-list fl">
+                        <div class="text-center">
+                            <a href="javascript:void(0)">
+                                <img src="/static/newImage/city27.png" alt="" width="267" height="110" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>*#
+            <!--end 合作城市-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+
+</body>

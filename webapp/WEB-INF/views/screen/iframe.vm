@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="renderer" content="webkit">
+    <title>蜜蜂帮帮</title>
+</head>
+<body>
+<iframe src="" id="iframeNode" frameborder="0" security="restricted" sandbox="allow-top-navigation allow-same-origin allow-forms"></iframe>
+<script>
+    var iframeNode = document.getElementsByTagName('iframe')[0];
+    var url=location.search.substring(1);
+    if(iframeNode) iframeNode.setAttribute('src', url);
+
+    var width = document.body.clientWidth;
+    var height = document.body.clientHeight;
+
+    iframeNode.style.width = width +'px';
+    iframeNode.style.height = height +'px';
+
+</script>
+</body>
+</html>

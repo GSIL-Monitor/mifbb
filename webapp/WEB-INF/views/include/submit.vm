@@ -1,0 +1,70 @@
+<script type="text/javascript">
+    window.onload = function(){
+        $(".cooperateBut").on('click',function(){
+            var type = $(this).hasClass('cooperateBut1') ? 1 : 2
+            submit(type);
+        })
+    }
+
+    function submit(type){
+        var phoneNumber = type == 1 ? $(".telephonenumber").val() : $(".telephonenumber1").val();
+
+        if(checkMobile(phoneNumber)){
+
+            var url = 'https://admin.mifbb.com/partner/add.htm';
+
+            var name = $(".join-block .username").val(), mobile = $(".join-block .telephonenumber").val(), area = $(".join-block .area").val();
+
+            if(type == 2){
+                var name = $(".join-block .username1").val();
+                var mobile = $(".join-block .telephonenumber1").val();
+                var area = $(".join-block .area1").val();
+            }
+
+            $.ajax({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                url: url,
+                type:'get',
+                data:{
+                    name: name,
+                    mobile: mobile,
+                    area: area
+                },
+                dataType:'jsonp',
+                jsonp: 'callback',
+                success:function(res){
+
+                    var msg = res.msg;
+
+                    alert(msg);
+
+                    if(msg == '申请成功'){
+
+                        window.location.reload();
+
+                    }
+
+                },
+                error:function(err){
+
+                }
+            })
+        }else{
+            alert('您输入的电话号码格式有误，请重新输入')
+        }
+
+    }
+
+    // 手机格式验证
+    function checkMobile(s) {
+        var regu = /^[1][0-9][0-9]{9}$/;
+        var re = new RegExp(regu);
+        if (re.test(s)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+</script>

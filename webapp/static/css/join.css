@@ -1,0 +1,58 @@
+/*bootstrap*/
+label{display:block;margin-bottom:5px}
+button,input,label,select,textarea{font-weight:400;line-height:20px}
+button,input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox],label,select{cursor:pointer}
+.uneditable-input,input[type=text],input[type=url],input[type=search],input[type=tel],input[type=color],input[type=password],input[type=datetime],input[type=datetime-local],input[type=date],input[type=month],input[type=time],input[type=week],input[type=number],input[type=email],textarea{background-color:#fff;border:1px solid #ccc;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border linear .2s,box-shadow linear .2s;-moz-transition:border linear .2s,box-shadow linear .2s;-o-transition:border linear .2s,box-shadow linear .2s;transition:border linear .2s,box-shadow linear .2s}
+.uneditable-input,input[type=text],input[type=url],input[type=search],input[type=tel],input[type=color],input[type=password],input[type=datetime],input[type=datetime-local],input[type=date],input[type=month],input[type=time],input[type=week],input[type=number],input[type=email],select,textarea{display:inline-block;height:20px;padding:4px 6px;margin-bottom:10px;font-size:14px;line-height:20px;color:#555;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;vertical-align:middle}
+.uneditable-input,input,textarea{margin-left:0}
+.uneditable-input,input,textarea{width:206px}
+button,input,label,select,textarea{font-size:14px;font-weight:400;line-height:20px}
+button,input{line-height:normal}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle}
+
+
+
+
+/*join-block*/
+strong{font-weight:700}
+.red{color:#eb4141}
+.header{margin:0 auto;padding-bottom:5px;border-top:3px solid #eb4141;-moz-box-shadow:0 1px 5px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 1px 5px 0 rgba(0,0,0,.3);box-shadow:0 1px 5px 0 rgba(0,0,0,.3)}
+.logo h1{padding-left:50px;font-size:36px;font-weight:400}
+.logo h1 a{color:#555}
+.links{text-align:right}
+.links a{display:inline-block;width:30px;height:30px;margin:15px 0 0 20px}
+.links a.home{}
+.links a.blog{margin-right:50px}
+#mjoin{border: none !important;}
+.join-container{margin-top:50px}
+.join-block form{padding:20px 50px 20px 50px;background:#f8f8f8 url(../images/pattern.jpg) left top repeat;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;-moz-box-shadow:0 1px 5px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 1px 5px 0 rgba(0,0,0,.3);box-shadow:0 1px 5px 0 rgba(0,0,0,.3);text-align:center}
+.join-block form h2{margin-bottom:25px;padding-bottom:15px;border-bottom:2px dotted #bbb;font-size:30px;font-weight:400;text-align:center}
+.join-block form input{font:62.5% Arial,"微软雅黑";width:95%;height:30px;background:#fcfcfc;border:1px solid #ddd;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:0 1px 3px 0 rgba(0,0,0,.1) inset;-webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,.1) inset;box-shadow:0 1px 3px 0 rgba(0,0,0,.1) inset;color:#888;font-size: 1.3rem;}
+.join-block form input:focus{border:1px solid #ccc;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
+.join-block form label{margin:7px 0 10px 5px;font-size:1.3rem;text-align:left}
+.join-block form ::-webkit-input-placeholder{font-size: 1.3rem;}
+.join-block form label span{font-style:italic}
+.join-block form input:-moz-placeholder{color:#aaa}
+.join-block form input:-ms-input-placeholder{color:#aaa}
+.join-block form input::-webkit-input-placeholder{color:#aaa}
+.join-block form button{cursor:pointer;width:60%;height:42px;margin-top:25px;padding:0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:0;-moz-box-shadow:0 15px 30px 0 rgba(255,255,255,.1) inset;-webkit-box-shadow:0 15px 30px 0 rgba(255,255,255,.1) inset;box-shadow:0 15px 30px 0 rgba(255,255,255,.1) inset;font-size:16px;font-weight:400;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.1);-o-transition:all .2s;-moz-transition:all .2s;-webkit-transition:all .2s;-ms-transition:all .2s}
+.join-block form button:hover{-moz-box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset;-webkit-box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset;box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset}
+.join-block form button:active{-moz-box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset,0 5px 8px 0 rgba(0,0,0,.1) inset;-webkit-box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset,0 5px 8px 0 rgba(0,0,0,.1) inset;box-shadow:0 -15px 30px 0 rgba(255,255,255,.05) inset,0 5px 8px 0 rgba(0,0,0,.1) inset}
+@media (max-width:1200px){.join-block form h2{}
+}
+@media (min-width:768px) and (max-width:979px){.join-block form h2{background:0 0}
+}
+@media (max-width:767px){body{padding-left:0;padding-right:0}
+.links,.logo{text-align:center}
+.links{padding-bottom:5px}
+.logo h1{padding-left:0}
+.links a.home{margin-left:0}
+.links a.blog{margin-right:0}
+.join-container{padding-left:20px;padding-right:20px}
+.join-block form h2{background:0 0}
+.iphone img{display:none}
+}
+@media (max-width:480px){.join-block form button{width:97%}
+}
+.join-container p.title{color: #FFA700;font-size: 1.8rem;border-bottom: 2px dotted #bbb;padding-bottom: 15px;margin-bottom: 25px;font-weight: 400;text-align: center;}
+.join-container #submit-btn{opacity: 1; pointer-events: auto;background-color: #FFA700;width: 100%;border-radius: 3px;border:#f0f0f0 1px solid;background:#FFA700;height:38px;display:block;margin:25px auto 50px;line-height:38px;color:#fff;text-align:center}

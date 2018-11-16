@@ -1,0 +1,1 @@
+#macro ( direct $direct-output )$!direct-output#end

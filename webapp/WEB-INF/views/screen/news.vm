@@ -1,0 +1,688 @@
+#set($layout="/layout/index.vm")
+<!--Page CSS-->
+<link type="text/css" href="/static/css/news151.css" rel="stylesheet" />
+<!--end Page CSS-->
+<body class="news">
+<div id="sitecontent" class="transform">
+
+    <!--顶部-->
+    #parse("include/header.vm")
+    <!--end 顶部-->
+    <div class="scrollPage">
+        <div id="indexPage">
+            <div id="mslider">
+                <img src="/static/img/wapxw-banner.png" class="imgcw" />
+                <div class="clear"></div>
+            </div>
+
+            <!--新闻-->
+            <div id="mnews" >
+                <div class="content">
+                    <div class="header">
+                        <p class="title">新闻动态</p>
+                        <span class="borderOrange"></span>
+                    </div>
+                    <div class="newsList w90 mauto" id="newslist">
+                        
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6560946776533107207/?iid=33993127652&app=news_article&timestamp=1528100535&article_category=stock&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">5-29</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">服务化租赁推动消费升级：蜜蜂帮帮与易点租达成战略合作！</p>
+                                    <p class="description">简介：融资租赁是一个纯金融服务，现在做叫服务化租赁，学名叫“经营性租赁”。
+                                        “其实就是一种所有权和使用权分离，目前很多企业和公司大都采用这种租赁方式来节约成本。从服务和灵活性上来讲，各方面都比融资租赁要好”
+                                        基于一种新服务的模式下，蜜蜂帮帮与易点租达成战略合作关系。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6559772737110278664/?iid=33993127652&app=news_article&timestamp=1528100558&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">5-26</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">“蜜蜂帮帮”荣获“2018年度中国影响力最具价值品牌”荣誉称号</p>
+                                    <p class="description">5月24日至25日，蜂享科技有限公司CEO陈龙先生、CMO姜俊超先生应邀出席了2018中国品牌影响力发展论坛暨第五届中国品牌影响力评价成果发布系列活动。公司CEO陈龙代表“蜜蜂帮帮”出席了“2018年度中国影响力最具价值品牌”荣誉称号授予仪式，并荣获“2018中国品牌影响力互联网（行业）十大新锐人物”荣誉称号。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6557984850626740740/?iid=33993127652&app=news_article&timestamp=1528100571&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">5-21</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">时代创业者-蜜蜂帮帮CEO陈龙登上中关村创业大街大屏</p>
+                                    <p class="description">2018年5月19日， 蜜蜂帮帮CEO陈龙登上全球第一块创业者专用屏——北京中关村创业大街大屏上，又给中关村创业大街带去了一束别样的创业之光。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6556795154731106820/?iid=33993127652&app=news_article&timestamp=1528100582&article_category=stock&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">5-18</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">交易更安心“蜜蜂帮帮与e签宝达成战略合作</p>
+                                    <p class="description">为提升蜜蜂帮帮平台安全性，互联网服务平台蜜蜂帮帮与国内电子签名引领者、知名第三方电子合同服务商e签宝于近日达成了合作关系，携手打造权威、安全、高效的电子合同，上线电子签章服务，这一举措标志着蜜蜂帮帮在平台合规之路上又迈出了坚实的一步。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6556059495418561038/?iid=33993127652&app=news_article&timestamp=1528100599&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">5-16</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">杭州市人大代表团队到访蜜蜂帮帮总部</p>
+                                    <p class="description">今日杭州市人大代表团队到访蜜蜂帮帮总部，蜜蜂帮帮COO（花名大侠）向各位人大代表们讲解蜜蜂帮帮的项目规划，并得到高度肯定和认可，对蜜蜂帮帮而言，也是一次很正面的激励。相信，以后的蜜蜂帮帮也会越来越好。</p>
+                                </div> </a>
+                        </div>
+
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6549435868254306824/?iid=33993127652&app=news_article&timestamp=1528100635&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">4-28</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮携手闪送，为你提供更优质的严选服务</p>
+                                    <p class="description">一个好的产品或者好服务，不仅要重视人货物的重构，也要解决流量和流通效率以及服务升级的问题。而新消费则更加重视用户购买商品过程中的幸福感指数，而让服务真正回归到良好的体验上，聚焦点在需求端。意识到这一点，蜜蜂帮帮也逐渐开展新服务的新合作模式。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6544242158931542536/?iid=33993127652&app=news_article&timestamp=1528100702&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">4-14</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮成立一年，这次我们露脸了</p>
+                                    <p class="description">蜜蜂帮帮成立一周年，这一次，我们终于露脸了，近日，蜜蜂帮帮有幸接受浙江卫视公共新闻频道-品牌视界专题报道，接下来，小蜜就带你了解这个“新面孔”。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6543881865592308232/?iid=33993127652&app=news_article&timestamp=1528100712&article_category=stock&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">4-13</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">8.在“互联网+服务”这片蓝海下，蜜蜂帮帮开启了新服务业的大门！</p>
+                                    <p class="description">很多人觉得社会已经越来越成熟，大佬割据的格局已定，创业机会已经很少，实际上真正的颠覆才刚刚开始。
+                                        当我们觉得淘宝、京东的江湖地位已经稳固时，拼多多却忽然袭来;
+                                        当我们觉得微信已经一统江山的时候，抖友们蜂拥而至;
+                                        当我们觉得今日头条已经不可能被取代的时候，趣头条与之分庭抗礼!
+                                        服务经济的时代到来，人们对服务的快捷、高效、个性化有更高的要求。然而现实却是，服务资源分散，消费者获得的信息有限，寻找服务过程繁琐。“互联网+服务”将是未来市场的一片蓝海。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6543112125651354120/?iid=33993127652&app=news_article&timestamp=1528100729&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">4-11</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">再获甜蜜！蜜蜂帮帮与闪修侠达成战略合作，共拓新领域</p>
+                                    <p class="description">自从蜜蜂帮帮“招蜂计划”战略部署公布以来，吸引了众多垂直领域的服务平台积极响应，基于蜜蜂帮帮这个优质的大服务平台，很多优质平台商家也逐渐达成共识。就在今日，蜜蜂帮帮与手机快修专家“闪修侠”（同时也是属于国内独创O2O手机上门快修平台，以专注的态度为用户提供专业的手机快修服务。）达成战略合作。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6537460508994306573/?iid=33993127652&app=news_article&timestamp=1528100773&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">3-27</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">【蜜蜂"星"资讯】顾家家居成功入驻蜜蜂帮帮</p>
+                                    <p class="description">顾家家居，作为中国家居行业的领军品牌，公司秉持“因为顾家，所以爱家”的价值观理念，致力于为全球家庭提供舒适、安全、环保、人性化的客餐厅及卧室家居产品。目前产品已远销世界120多个国家和地区，遍布全球3000余家品牌专卖店。就在今日，江苏省东台市“顾家家居旗舰店”成功入驻蜜蜂帮帮平台。</p>
+                                </div> </a>
+                        </div>
+
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://m.toutiaocdn.cn/item/6532993260011389444/?iid=33993127652&app=news_article&timestamp=1528100800&article_category=stock&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">3-15</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮、iFix爱修网达成战略合作 强强联手共创新篇章</p>
+                                    <p class="description">“蜜蜂帮帮与iFix爱修网达成战略合作”3月13日在杭州蜜蜂帮帮总部正式签署战略合作协议，此番蜜蜂帮帮与iFix爱修网合作预示着双方将共同发力家电、手机维修行业。携手开拓维修市场，为用户提供高效、便捷的维修服务。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://m.zjurl.cn/item/6531122741137900045/?iid=33993127652&app=news_article&timestamp=1528100815&tt_from=mobile_qq&utm_source=mobile_qq&utm_medium=toutiao_android&utm_campaign=client_share" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">3-10</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮战略全球化，法国考察团及法国领事到访蜜蜂帮帮</p>
+                                    <p class="description">日前在小服集团2018年的启动大会上，蜜蜂帮帮CEO陈龙先生就曾提到过今年蜜蜂帮帮有一个很重要的战略——全球化战略。
+                                        仅仅只过去了短短的8天，蜜蜂帮帮便迎来了第一批外国考察团队，由法国驻上海总领事馆科技领事梅森带领的27人考察团队特意到了蜜蜂帮帮参加交流会，蜜蜂帮帮可以说是迅速的迈出了全球化战略的第一步。</p>
+                                </div> </a>
+                        </div>
+                        
+                        
+                        
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6527048893631300104/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">3-3</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">新时代，新征程！蜜蜂帮帮2018年启动大会热血落幕！</p>
+                                    <p class="description">时光匆匆，不知不觉中，一年的时光就这样的过去了。回顾过去的岁月，我们一起欢笑，一起面对。分享成功，分担困难。我们有过困惑，但我们敢于开拓...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://tech.china.com/article/20180301/20180301113350.html?qq-pf-to=pcqq.c2c" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">3-1</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮、iFix爱修网达成战略合作 强强联手共创新篇章</p>
+                                    <p class="description">“蜜蜂帮帮与iFix爱修网达成战略合作”3月13日在杭州蜜蜂帮帮总部正式签署战略合作协议，此番蜜蜂帮帮与iFix爱修网合作预示着双方将共同发力家电、手机维修行业...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6528551518939906568/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">2-27</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮助你秒懂假期刷屏的“区块链”</p>
+                                    <p class="description">早在2008年，中本聪就提出了区块链的概念，随着电子货币和金融体系的发展和变革，区块链慢慢的走进了更多人的视野...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6526664403264209411/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">2-9</p>
+                                    <p class="year">2018</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">化茧成蝶，蜜蜂帮帮2.0版本蜕变上线</p>
+                                    <p class="description">虽然已近年关，但是蜜蜂帮帮的所有人仍然背负着所有信赖我们的人的期望负重前行。回乡急迫的心情也依然不能阻挡蜜蜂帮帮对实现美好愿景的热情...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6502671881148039693/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-23</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">走进大数据时代，走进蜜蜂帮帮</p>
+                                    <p class="description">当今的社会每一个人都是数据的缔造者，同时也是数据的受益者。生活中的任何东西都和数据有关系，可以说是我们随时随地都在产生着数据...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://www.jwb.com.cn/qy/201712/t20171222_4828941.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-22</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">服务创业先锋蜜蜂帮帮受邀创业黑马年会，携手共进，共创未来</p>
+                                    <p class="description">12月15日，由创业黑马主办的创业黑马第十届年会在北京国家会议中心举行。奇虎360创始人兼CEO周鸿祎，创业黑马董事长牛文文...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6501560434196218381/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-20</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮APP全新1.5版本荣耀上线</p>
+                                    <p class="description">蜜蜂帮帮APP在经过技术们日夜苦战后，终于在12月XX日的时候正式上线了。这次主要是对应商家权益与入驻签约的流程进行了更新以及UI界面...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6501183592519959053/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-19</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">碎片化时间不浪费，蜜蜂帮帮让你的碎片化时间更加值钱</p>
+                                    <p class="description">新世纪人们的生活状态与社会形势都在发生着翻天覆地的变化，这种变化让现代社会几乎所有人都已经进入了快节奏的生活，这种生活状态也是现代人没有时间...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://baijiahao.baidu.com/s?id=1586724488261384923&wfr=spider&for=pc" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-14</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">碎片化时间的工作圈，蜜蜂帮帮更懂你</p>
+                                    <p class="description">在移动互联网中，“碎片化”时间指的是人们等电梯时、等公交车和地铁时、乘车时等一些分散性的时间。移动互联网用户能够充分利用“碎片化”时间通过使用...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6498551090399674893/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-12</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：为什么传统中国服务业转型难做？</p>
+                                    <p class="description">相对于美国服务业所占的总GDP80%而言，中国的服务业只占了50%左右，所以对于服务业的发展，也肯定是中国在今后必经的一个趋势...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://baijiahao.baidu.com/s?id=1586177580543913899&wfr=spider&for=pc" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-08</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：合伙人现场分享，创始人分析展望，共创辉煌！</p>
+                                    <p class="description">又是一个小伙伴们齐聚一堂的周三，这周蜜蜂帮帮的周三大学请到了咱们蜜蜂帮帮的联合创始人，刚刚参加完世界互联网大会的波哥...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://news.163.com/17/1207/12/D527QJ9I00018AOP.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-07</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮受邀参加世界互联网大会</p>
+                                    <p class="description">第四届世界互联网大会由国家互联网信息办公室和浙江省人民政府主办的第四届世界互联网大会，于2017年12月3日至5日在浙江...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://tech.91.com/content/hezuo/s5a2648775d03.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">12-05</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮受邀参会，马云又在浙商大会说了什么</p>
+                                    <p class="description">这是史上规模、规格都是新高的一次浙商盛会。11月29日，第四届浙商大会在杭州国际博览中心隆重开幕。来自全球60余个国家...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://baijiahao.baidu.com/s?id=1585481232729296842&wfr=spider&for=pc" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">11-30</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮十城联动——燃动中国【枣庄站】</p>
+                                    <p class="description">为了加快蜜蜂帮帮的发展速度，蜜蜂帮帮总部决定在全国扶持十大标杆城市已达到发展基础，派出十名附能顾问去进行战略附能...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://www.sohu.com/a/207339553_100076937" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">11-29</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮十城联动——燃动中国【西双版纳站】</p>
+                                    <p class="description">一说起西双版纳，大家第一时间想到的肯定是茂密的森林，脑海中浮现的肯定是一片生机盎然的景色。其实，到了西双版纳...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://www.sohu.com/a/207327142_100076937" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">11-29</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮十城联动——燃动中国【天津站】</p>
+                                    <p class="description">我们的天津地区营销顾问“果爷”，刚来到天津就就与合伙人进行了碰面交流，迫不及待的想把合伙人地区给带动起来，想把蜜蜂帮帮...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6488085777031889421/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">11-14</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">新零售，未来的突破口？</p>
+                                    <p class="description">随着发展，各大互联网巨头发现了一种新的模式。并把它命名为“新零售”。而在2017年出现了新的零售业态，为了寻求新发展的各大零售...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://zj.qq.com/a/20170825/081397.htm" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">08-25</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">阿里巴巴旁惊现未来独角兽？暨蜜蜂帮帮产品发布会</p>
+                                    <p class="description">8月25日，杭州蜂享科技有限公司于上午9点在梦想小镇中召开了蜜蜂帮帮产品发布会，本次发布会邀请了近200位合伙人以及各大媒体亲...</p>
+                                </div> </a>
+                        </div>
+                       #* <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://www.gold678.com/dy/A/2048225" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">06-04</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">新一波红利将释放， 这类人要暴富了？</p>
+                                    <p class="description">服务业已经成为中国第一大产业，GDP占比超过50%，生活服务业将成为拉动经济增长新引擎，生活服务业的每个服务领域都有千亿元甚至万亿元的市场规模...</p>
+                                </div> </a>
+                        </div>*#
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3493067019797625878%22%7D" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-28</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：共享的本质是什么？共享充电宝能成为下一个ofo吗？</p>
+                                    <p class="description">共享经济的确已渗透到生活的方方面面，上下班骑一段共享单车，外出旅游时订一间民宿，周末租一辆私家车自驾……近日，共享充电宝又现身，共享经济涉及领域不断扩大..</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6423958417496343041/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-25</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：共享经济预见未来十年，将来是花钱买时间</p>
+                                    <p class="description">马云认为未来十年是服务于他人的竞争。《人人都是产品经理》作者苏杰认为，未来市场是“花钱买时间/服务”...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://money.163.com/17/0519/13/CKQ7F8UH002580S6.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-19</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：“百城齐开”，顺势而为，借势而上！</p>
+                                    <p class="description">5月14日至5月15日，蜜蜂帮帮第二次项目品鉴会，迎着国际合作之风在焕发互联网经济活力的杭州召开...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3717277377965217965%22%7D" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-16</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：5.14“一带一路”同一个世界，同一个梦想</p>
+                                    <p class="description">“一带一路”沿线许多国家都是前欧洲殖民地，它们的博物馆、历史文化多靠宗主国以及现在的西方国家建设和书写...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://tech.91.com/content/170511/22011379.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-11</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮项目发布：良仓CEO郑讯达与原阿里产品经理苏杰助阵</p>
+                                    <p class="description">酝酿一年，筹备数月。终于，蜜蜂帮帮项目于4月27日震撼发布！一群人，从全国各地、海外远道而来为了改变未来...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6418067865584271874/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-09</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：究竟什么是新商业模式？以多对多，为更多人创造价值？</p>
+                                    <p class="description">互联网商业模式就是指以互联网为媒介，整合传统商业类型，连接各种商业渠道，具有高创新、高价值、高盈利、高风险的全新商业运作...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6416908491415355906/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-06</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：聚焦C919初露锋芒！中国企业将发生12个重大变化</p>
+                                    <p class="description">C919的首飞成功，让每一个关注着的中国民众感到振奋。中国航空事业迈出了成功的第一步。这预示着，我国在新时代背景下，即将以来新的突破...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://www.c114.net/news/52/a1006303.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-05</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜂享科技之蜜蜂帮帮发布 项目合伙人“互联网+共享·共融·共创”</p>
+                                    <p class="description">服务业占GDP50%以上，但服务业存在杂、乱、繁的问题。蜜蜂帮帮——你身边的严选服务，即将成为“服务业的滴滴打车”，为消费者市场带来便利和舒心的服务...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://mp.weixin.qq.com/s/EQ3DxP7qwmImwZSp51Lzkw" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">05-04</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：只有你能看到的精彩花絮</p>
+                                    <p class="description">2017年4月27日-28日，这一天不同寻常。我们的嘉宾从各地而来，在G20东道主杭州相遇。北至黑龙江、南至广东，港台同胞、国外奋斗青年...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" target="_blank" href="https://www.toutiao.com/i6412377731232694786/">
+                                <div class="newsdate">
+                                    <p class="md">04-24</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">“工匠精神，实践为王”之蜜蜂帮帮首席运营官傅波专访</p>
+                                    <p class="description">“再牛逼的日子，都不如兄弟们在一起傻逼的日子”,作为最早一批加入阿里巴巴的员工，蜜蜂帮帮COO傅波亲身经历了淘宝、天猫...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6411396147214025217/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-21</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">杭州市蜜蜂帮帮：我们在梦想小镇，为梦想代言！</p>
+                                    <p class="description">古云：上有天堂，下有苏杭。G20之后，全国各地对杭州有了更多的关注，不仅看到了杭州的自然美，还看到了杭州的经济活力。</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" target="_blank" href="https://www.toutiao.com/i6411098500343267841/">
+                                <div class="newsdate">
+                                    <p class="md">04-20</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">未来新服务·新商机:只要这个星球需要服务，就需要蜜蜂帮帮。</p>
+                                    <p class="description">互联网行业的大神级人物，以及《必然》书籍的作者凯文·凯利，对我们未来的三十年做了一个初步的预测...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6410522226277220865/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-19</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">阿里铁军之父俞头重披战袍，蜜蜂帮帮为何成为了精英眼中的香饽饽</p>
+                                    <p class="description">13年阿里资深直销团队管理经验，阿里巴巴全国直销总经理，B2B资深总监。历任中小企业重镇浙江、江苏，中西部等地的区域经理及大区省长等职务...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6410157905567302146/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-18</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮之CEO陈龙专访：我们的愿望是为人民服务（续）</p>
+                                    <p class="description">达康书记，正是我的偶像。”说到最近大热的《人民的名义》，CEO陈龙也是剧迷。而新晋网红李达康“为人民服务”的执念，正与蜜蜂帮帮...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6409102273372226049/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-15</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：服务的本质是什么？我们不仅仅是服务业的“滴滴打车”</p>
+                                    <p class="description">服务经济时代到来，“体验感”与“服务”紧密相连。“只要与每个人的生活息息相关的，都需要‘人民的名义’。”说到最近大热的《人民的名义》...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6408496938026533378/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-14</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：网易云音乐融资7.5亿元融资，论价值观的魅力值</p>
+                                    <p class="description">注重用户体验，不仅是关心用户，也是关心每一个独立的个体。产生共鸣，也是一种缘分...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6407774625471660546/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-11</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：眼光比能力更重要，你的认知决定你的行为</p>
+                                    <p class="description">当下比“互联网+”更重要的，是商业模式的创意。不难发现在几年前，有互联网眼光的人很少，近年来，“互联网+”已成普遍认知...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6406953752644813314/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-09</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">《人民的名义》之蜜蜂帮帮「陈龙」专访</p>
+                                    <p class="description">人民的名义，体现的是一种“以人为本”的政治态度。放到经济中，我们也可以理解为——服务的态度。蜜蜂帮帮CEO陈龙，告诉我们“走心的才叫服务”...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6405923177070854657/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-07</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：共享单车到底靠什么赚钱？外行看热闹，内行看门道</p>
+                                    <p class="description">没有一种商业模式是长存的，没有一种竞争力是永恒的，没有一种资产是稳固的，这是一股从未有过的革命潮,我们能做的只有改变、创新...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6404348431405416962/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-02</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：人类正处 在大革命前夜，新一轮财富爆发在即！</p>
+                                    <p class="description">200年前，人类所有的财富都是资源化。100年前，人类所有的财富都是机器化，今天，人类所有的财富都是智能化...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3980571599156448497%22%7D" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-02</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">快手融资3.5亿美元？蜜蜂帮帮也是蓝海</p>
+                                    <p class="description">2月7日，美国科技博客TechCrunch曾报道，知情人士透露，快手计划于今年晚些时候在美国上市。知情人士称，该应用最近的估值约为 30 亿美元...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6404024390660391425/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">04-01</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">与现有共享模式相比，蜜蜂帮帮为什么更有信心做好？</p>
+                                    <p class="description">在互联网思维的撬动下，随着概念的热炒，共享经济已渗透到交通出行、房屋短租、生活服务、知识技能等诸多领域...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="https://www.toutiao.com/i6403573587365593601/" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">03-31</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮——服务业的“滴滴打车”，个人创富新风口</p>
+                                    <p class="description">“作为国民经济的重要组成部分，服务业的重要性日渐凸显，已经成为经济增长的重要动力和衡量地区综合竞争力与现代化水平的重要标志。”...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://mt.sohu.com/20170329/n485455069.shtml" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">03-29</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：和年入360万相比，月薪5万又怎么了</p>
+                                    <p class="description">一个助理月薪5万，我们的第一感觉是惊讶。但是惊讶之余，我们需要认识到收入和投入是成正比的，一个相对高收入的背后，一定也是相对更多的付出...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://mini.eastday.com/a/170328133220516.html" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">03-28</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">让你变in的热点：天猫小黑盒是什么?蜜蜂帮帮又是什么?</p>
+                                    <p class="description">在日新月异、信息过载的互联网时代，“in”（前卫）变得很重要，稍不留神就会错过新事物，我们关注到的除了自己感兴趣的外，还应了解到未来将影响我们生活的事物...</p>
+                                </div> </a>
+                        </div>
+                        <div class="newstitem wow fadeIn">
+                            <a class="newsinfo" href="http://mt.sohu.com/20170323/n484451979.shtml" target="_blank">
+                                <div class="newsdate">
+                                    <p class="md">03-23</p>
+                                    <p class="year">2017</p>
+                                </div>
+                                <div class="newsbody">
+                                    <p class="title ellipsis">蜜蜂帮帮：让服务像“滴滴打车”一样简单</p>
+                                    <p class="description">生活中，能“随叫随到”的服务，我们脑海里蹦出的就是“滴滴打车”。如果我们想去一个地方，“滴滴打车”能随时实现我们的想法...</p>
+                                </div> </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--end 新闻-->
+
+        </div>
+
+        <!--Common footer-->
+        #parse("include/footer.vm")
+        <!--end Common footer-->
+
+    </div>
+</div>
+
+<!--Common 左侧滑动菜单-->
+    #parse("include/leftcontrol.vm")
+<!--end Common 左侧滑动菜单-->
+
+
+
+</body>
